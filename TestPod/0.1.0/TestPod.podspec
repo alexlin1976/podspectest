@@ -10,6 +10,9 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   
   # Specify the location of the pre-compiled framework within the archive
+  s.source_files = [
+    'sources/WebRequest.swift'
+  ]
   s.vendored_frameworks = 'frameworks/FirebaseAnalytics.xcframework'
   
 end
