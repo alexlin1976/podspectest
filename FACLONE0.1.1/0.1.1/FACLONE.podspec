@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FACLONE'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple example library.'
   s.homepage         = 'https://example.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
